@@ -130,7 +130,7 @@ class TipCalculator extends StatelessWidget {
     TextField billAmountField = new TextField(
       //labelText: "Bill amount(\$)",
       keyboardType: TextInputType.number,
-      decoration: new InputDecoration(labelText: "Bill amount(\$"),
+      decoration: new InputDecoration(labelText: "Bill amount(\$)"),
       onChanged: (String value) {
         try{
           billAmount = double.parse(value);
